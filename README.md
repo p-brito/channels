@@ -317,7 +317,9 @@ In a scenario where it's necessary to create channels generically, reflection mi
 var ch = await chGenerator.CreateChannel("System.String") as Channel<string>;
 ```
 
-- ChannelGenerator, is a component that creates channels based on a given type. It supports `Bounded Channel Options` and `Unbounded Channel Options`.
+ChannelGenerator, is a component that creates channels based on a given type. It supports `BoundedChannelOptions` and `UnboundedChannelOptions`. 
+
+**This repository contains a console application with all the examples described here.**
 
 
 #### Ref's
